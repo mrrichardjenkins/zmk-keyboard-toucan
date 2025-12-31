@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
 #define NAV  1
@@ -30,7 +31,7 @@
         nav {
             display-name = "NAV";
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &trans  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp INSERT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END  &kp PRINTSCREEN  &trans  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SCROLLLOCK  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp INSERT  &trans  &trans  &trans  &kp C_PAUSE  &trans  &trans  &trans  &trans  &mkp RCLK  &mkp MCLK  &trans
             >;
         };
 
